@@ -1,32 +1,32 @@
-# ? Amazon ÉÌÆ·Êý¾Ý²É¼¯Óë·ÖÎöÏµÍ³
+# ðŸ“¦ Amazon å•†å“æ•°æ®é‡‡é›†ä¸Žåˆ†æžç³»ç»Ÿ
 
-## ? ÏîÄ¿¼ò½é
+## ðŸ“ é¡¹ç›®ç®€ä»‹
 
-±¾ÏîÄ¿ÊÇÒ»¸ö»ùÓÚ **Python + MySQL + Streamlit** ¹¹½¨µÄ **¿ç¾³µçÉÌÉÌÆ·¾ºÕù·ÖÎöÆ½Ì¨**£¬Ö÷ÒªÕë¶Ô Amazon ÉÌÆ·Ò³Ãæ½øÐÐÅÀÈ¡Óë·ÖÎö¡£ÓÃ»§¿ÉÒÔÊäÈë¹Ø¼ü´Ê£¨Èç `beer` »ò `book`£©£¬ÏµÍ³½«×Ô¶¯Íê³ÉÊý¾Ý²É¼¯¡¢ÇåÏ´¡¢´æ´¢¡¢·ÖÎöÓë¿ÉÊÓ»¯Õ¹Ê¾¡£
+æœ¬é¡¹ç›®æ˜¯ä¸€ä¸ªåŸºäºŽ **Python + MySQL + Streamlit** æž„å»ºçš„ **è·¨å¢ƒç”µå•†å•†å“ç«žäº‰åˆ†æžå¹³å°**ï¼Œä¸»è¦é’ˆå¯¹ Amazon å•†å“é¡µé¢è¿›è¡Œçˆ¬å–ä¸Žåˆ†æžã€‚ç”¨æˆ·å¯ä»¥è¾“å…¥å…³é”®è¯ï¼ˆå¦‚ `beer` æˆ– `book`ï¼‰ï¼Œç³»ç»Ÿå°†è‡ªåŠ¨å®Œæˆæ•°æ®é‡‡é›†ã€æ¸…æ´—ã€å­˜å‚¨ã€åˆ†æžä¸Žå¯è§†åŒ–å±•ç¤ºã€‚
 
 ---
 
-## ? ¹¦ÄÜÄ£¿é
+## ðŸ§© åŠŸèƒ½æ¨¡å—
 
-| Ä£¿é             | ¹¦ÄÜÃèÊö                            |
+| æ¨¡å—             | åŠŸèƒ½æè¿°                            |
 |----------------|---------------------------------|
-| `crawler.py`   | ÅÀÈ¡ Amazon Ö¸¶¨¹Ø¼ü´ÊµÄÉÌÆ·Êý¾Ý£¬²¢´æ´¢ÖÁ MySQL |
-| `analysis.py`  | ´ÓÊý¾Ý¿â¶ÁÈ¡Êý¾Ý£¬ÇåÏ´ºó½øÐÐÍ³¼Æ·ÖÎö²¢Éú³É¿ÉÊÓ»¯Í¼±í      |
-| `dashboard.py` | Ê¹ÓÃ Streamlit ´´½¨½»»¥Ê½ÒÇ±íÅÌ£¬¶¯Ì¬Õ¹Ê¾·ÖÎö½á¹û  |
-| `clear_db.py`  | ÇåÀí MySQL Êý¾Ý¿âÖÐÖ¸¶¨¹Ø¼ü´Ê¶ÔÓ¦µÄÊý¾Ý±í        |
-| `Run.py`       | Ò»¼üÔËÐÐÅÀ³æ¡¢·ÖÎöÓëÒÇ±íÅÌÕ¹Ê¾Ä£¿é£¨Èë¿Ú½Å±¾£©         |
+| `crawler.py`   | çˆ¬å– Amazon æŒ‡å®šå…³é”®è¯çš„å•†å“æ•°æ®ï¼Œå¹¶å­˜å‚¨è‡³ MySQL |
+| `analysis.py`  | ä»Žæ•°æ®åº“è¯»å–æ•°æ®ï¼Œæ¸…æ´—åŽè¿›è¡Œç»Ÿè®¡åˆ†æžå¹¶ç”Ÿæˆå¯è§†åŒ–å›¾è¡¨      |
+| `dashboard.py` | ä½¿ç”¨ Streamlit åˆ›å»ºäº¤äº’å¼ä»ªè¡¨ç›˜ï¼ŒåŠ¨æ€å±•ç¤ºåˆ†æžç»“æžœ  |
+| `clear_db.py`  | æ¸…ç† MySQL æ•°æ®åº“ä¸­æŒ‡å®šå…³é”®è¯å¯¹åº”çš„æ•°æ®è¡¨        |
+| `Run.py`       | ä¸€é”®è¿è¡Œçˆ¬è™«ã€åˆ†æžä¸Žä»ªè¡¨ç›˜å±•ç¤ºæ¨¡å—ï¼ˆå…¥å£è„šæœ¬ï¼‰         |
 
 ---
 
-## ? »·¾³ÒÀÀµ
+## ðŸ›  çŽ¯å¢ƒä¾èµ–
 
-ÇëÈ·±£±¾µØÒÑ°²×°ÒÔÏÂÒÀÀµ¿â£º
+è¯·ç¡®ä¿æœ¬åœ°å·²å®‰è£…ä»¥ä¸‹ä¾èµ–åº“ï¼š
 
 ```bash
 pip install requests beautifulsoup4 pandas sqlalchemy pymysql matplotlib seaborn streamlit
 ```
 
-È·±£±¾µØ MySQL Êý¾Ý¿âÒÑ´´½¨£¬Ãû³ÆÎª `amazon_data`£¬²¢ÔÊÐí `root` ÓÃ»§£¨ÎÞÃÜÂë£©Á¬½Ó£º
+ç¡®ä¿æœ¬åœ° MySQL æ•°æ®åº“å·²åˆ›å»ºï¼Œåç§°ä¸º `amazon_data`ï¼Œå¹¶å…è®¸ `root` ç”¨æˆ·ï¼ˆæ— å¯†ç ï¼‰è¿žæŽ¥ï¼š
 
 ```sql
 CREATE DATABASE amazon_data;
@@ -34,91 +34,93 @@ CREATE DATABASE amazon_data;
 
 ---
 
-## ? Ê¹ÓÃ·½·¨
+## ðŸš€ ä½¿ç”¨æ–¹æ³•
 
-### 1. Êý¾Ý²É¼¯
+### 1. æ•°æ®é‡‡é›†
 
 ```bash
 python crawler.py
 ```
 
-ÊäÈë¹Ø¼ü´Ê£¨Èç `beer`£©£¬ÏµÍ³½«´Ó Amazon ÅÀÈ¡ÉÌÆ·ÐÅÏ¢£¬²¢´æÈëÊý¾Ý¿â `amazon_data` µÄ `beer` ±íÖÐ¡£
+è¾“å…¥å…³é”®è¯ï¼ˆå¦‚ `beer`ï¼‰ï¼Œç³»ç»Ÿå°†ä»Ž Amazon çˆ¬å–å•†å“ä¿¡æ¯ï¼Œå¹¶å­˜å…¥æ•°æ®åº“ `amazon_data` çš„ `beer` è¡¨ä¸­ã€‚
 
-### 2. Êý¾Ý·ÖÎöÓëÍ¼±íÉú³É
+### 2. æ•°æ®åˆ†æžä¸Žå›¾è¡¨ç”Ÿæˆ
 
 ```bash
 python analysis.py
 ```
 
-ÊäÈë¹Ø¼ü´Ê£¨Èç `beer`£©£¬½«Éú³É¶ÔÓ¦¹Ø¼ü´ÊµÄÍ¼±í£¬±£´æÔÚ `charts/beer/` ÎÄ¼þ¼ÐÖÐ¡£
+è¾“å…¥å…³é”®è¯ï¼ˆå¦‚ `beer`ï¼‰ï¼Œå°†ç”Ÿæˆå¯¹åº”å…³é”®è¯çš„å›¾è¡¨ï¼Œä¿å­˜åœ¨ `charts/beer/` æ–‡ä»¶å¤¹ä¸­ã€‚
 
-### 3. Æô¶¯¿ÉÊÓ»¯ÒÇ±íÅÌ
+### 3. å¯åŠ¨å¯è§†åŒ–ä»ªè¡¨ç›˜
 
 ```bash
 streamlit run dashboard.py
 ```
 
-´ò¿ªä¯ÀÀÆ÷²é¿´½»»¥Ê½Êý¾Ý·ÖÎöÒÇ±íÅÌ£¬Ö§³Ö¼Û¸ñ¡¢ÆÀ·ÖÉ¸Ñ¡¡£
+æ‰“å¼€æµè§ˆå™¨æŸ¥çœ‹äº¤äº’å¼æ•°æ®åˆ†æžä»ªè¡¨ç›˜ï¼Œæ”¯æŒä»·æ ¼ã€è¯„åˆ†ç­›é€‰ã€‚
 
-### 4. Çå³ýÖ¸¶¨ÉÌÆ·ÀàÄ¿Êý¾Ý
+### 4. æ¸…é™¤æŒ‡å®šå•†å“ç±»ç›®æ•°æ®
 
 ```bash
 python clear_db.py
 ```
 
-ÊäÈë¹Ø¼ü´Ê£¨Èç `book`£©£¬¶ÔÓ¦±í½«´ÓÊý¾Ý¿âÖÐÉ¾³ý¡£
+è¾“å…¥å…³é”®è¯ï¼ˆå¦‚ `book`ï¼‰ï¼Œå¯¹åº”è¡¨å°†ä»Žæ•°æ®åº“ä¸­åˆ é™¤ã€‚
 
-### 5. Ò»¼üÔËÐÐÈ«Á÷³Ì
-Ö»ÐèÔËÐÐ
+### 5. ä¸€é”®è¿è¡Œå…¨æµç¨‹
+
 ```bash
 python Run.py
 ```
 
-³ÌÐò½«ÒÀ´Î×Ô¶¯Ö´ÐÐÅÀ³æ¡¢·ÖÎö¡¢¿ÉÊÓ»¯ÒÇ±íÅÌÁ÷³Ì¡£
+ä¾æ¬¡è‡ªåŠ¨æ‰§è¡Œçˆ¬è™«ã€åˆ†æžã€å¯è§†åŒ–ä»ªè¡¨ç›˜æµç¨‹ã€‚
 
 ---
 
-## ? Êý¾Ý×Ö¶ÎËµÃ÷
+## ðŸ“Š æ•°æ®å­—æ®µè¯´æ˜Ž
 
-| ×Ö¶ÎÃû      | º¬Òå           |
+| å­—æ®µå      | å«ä¹‰           |
 |-------------|----------------|
-| Title       | ÉÌÆ·±êÌâ       |
-| Price       | ÉÌÆ·¼Û¸ñ£¨ÃÀÔª£©|
-| Rating      | ÓÃ»§ÆÀ·Ö£¨1~5ÐÇ£© |
-| Reviews     | ÆÀÂÛÊýÁ¿       |
-| Image_URL   | ÉÌÆ·Í¼Æ¬Á´½Ó    |
-| Product_URL | ÉÌÆ·Ìø×ªÁ´½Ó    |
+| Title       | å•†å“æ ‡é¢˜       |
+| Price       | å•†å“ä»·æ ¼ï¼ˆç¾Žå…ƒï¼‰|
+| Rating      | ç”¨æˆ·è¯„åˆ†ï¼ˆ1~5æ˜Ÿï¼‰ |
+| Reviews     | è¯„è®ºæ•°é‡       |
+| Image_URL   | å•†å“å›¾ç‰‡é“¾æŽ¥    |
+| Product_URL | å•†å“è·³è½¬é“¾æŽ¥    |
 
 ---
 
-## ? ÏîÄ¿Ä¿Â¼½á¹¹
+## ðŸ“ é¡¹ç›®ç›®å½•ç»“æž„
 
 ```
-©À©¤©¤ crawler.py
-©À©¤©¤ analysis.py
-©À©¤©¤ dashboard.py
-©À©¤©¤ clear_db.py
-©À©¤©¤ Run.py
-©À©¤©¤ charts/
-©¦   ©¸©¤©¤ beer/
-©¦       ©À©¤©¤ price_distribution.png
-©¦       ©À©¤©¤ rating_distribution.png
-©¦       ©À©¤©¤ price_vs_rating.png
-©¦       ©¸©¤©¤ reviews_vs_rating.png
-©À©¤©¤ README.md
+â”œâ”€â”€ crawler.py
+â”œâ”€â”€ analysis.py
+â”œâ”€â”€ dashboard.py
+â”œâ”€â”€ clear_db.py
+â”œâ”€â”€ Run.py
+â”œâ”€â”€ charts/
+â”‚   â””â”€â”€ beer/
+â”‚       â”œâ”€â”€ price_distribution.png
+â”‚       â”œâ”€â”€ rating_distribution.png
+â”‚       â”œâ”€â”€ price_vs_rating.png
+â”‚       â””â”€â”€ reviews_vs_rating.png
+â”œâ”€â”€ README.md
 ```
 
 ---
 
-## ? ×¢ÒâÊÂÏî
+## ðŸ§  æ³¨æ„äº‹é¡¹
 
-- Amazon ÓÐ·ÀÅÀ»úÖÆ£¬½¨Òé½µµÍÇëÇóÆµÂÊ»òÊ¹ÓÃ´úÀí¡£
-- ÍÆ¼öÔÚ¿ÆÑ§ÉÏÍø»·¾³ÏÂÔËÐÐÒÔÈ·±£·ÃÎÊ Amazon Ò³Ãæ³É¹¦¡£
-- ³ÌÐòÔËÐÐÈÕÖ¾±£´æÔÚµ±Ç°Ä¿Â¼ÏÂµÄ `.log` ÎÄ¼þÖÐ¡£
-- Í¼±íÎÄ¼þ×Ô¶¯±£´æÔÚ `charts/{¹Ø¼ü´Ê}` ÎÄ¼þ¼ÐÏÂ¡£
+- Amazon æœ‰é˜²çˆ¬æœºåˆ¶ï¼Œå»ºè®®é™ä½Žè¯·æ±‚é¢‘çŽ‡æˆ–ä½¿ç”¨ä»£ç†ã€‚
+- æŽ¨èåœ¨ç§‘å­¦ä¸Šç½‘çŽ¯å¢ƒä¸‹è¿è¡Œä»¥ç¡®ä¿è®¿é—® Amazon é¡µé¢æˆåŠŸã€‚
+- ç¨‹åºè¿è¡Œæ—¥å¿—ä¿å­˜åœ¨å½“å‰ç›®å½•ä¸‹çš„ `.log` æ–‡ä»¶ä¸­ã€‚
+- å›¾è¡¨æ–‡ä»¶è‡ªåŠ¨ä¿å­˜åœ¨ `charts/{å…³é”®è¯}` æ–‡ä»¶å¤¹ä¸‹ã€‚
 
 ---
 
-## ??? ×÷Õß
+## ðŸ‘¨â€ðŸ’» ä½œè€…
 
-±¾ÏîÄ¿ÓÉÈí¼þ¹¤³Ì×¨ÒµÑ§Éú¿ª·¢£¬Ö¼ÔÚÌáÉýÊý¾Ý²É¼¯¡¢Êý¾Ý¿âÉè¼Æ¡¢¿ÉÊÓ»¯·ÖÎöÄÜÁ¦£¬·þÎñÓÚ¿ç¾³µçÉÌÖÇÄÜ·ÖÎö³¡¾°¡£
+æœ¬é¡¹ç›®ç”±è½¯ä»¶å·¥ç¨‹ä¸“ä¸šå­¦ç”Ÿå¼€å‘ï¼Œæ—¨åœ¨æå‡æ•°æ®é‡‡é›†ã€æ•°æ®åº“è®¾è®¡ã€å¯è§†åŒ–åˆ†æžèƒ½åŠ›ï¼ŒæœåŠ¡äºŽè·¨å¢ƒç”µå•†æ™ºèƒ½åˆ†æžåœºæ™¯ã€‚
+
+---
