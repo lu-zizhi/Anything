@@ -1,0 +1,12 @@
+2025-04-01 14:39:49,492 - ERROR - 从表 book 读取数据失败: (pymysql.err.ProgrammingError) (1146, "Table 'amazon_data.book' doesn't exist")
+[SQL: SELECT * FROM book]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-01 14:40:07,596 - ERROR - 从表 book 读取数据失败: (pymysql.err.ProgrammingError) (1146, "Table 'amazon_data.book' doesn't exist")
+[SQL: SELECT * FROM book]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-01 21:57:06,507 - ERROR - 从表 iphone 读取数据失败: (pymysql.err.ProgrammingError) (1146, "Table 'amazon_data.iphone' doesn't exist")
+[SQL: SELECT * FROM iphone]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-01 21:57:25,501 - ERROR - 从表 iphone 读取数据失败: (pymysql.err.ProgrammingError) (1146, "Table 'amazon_data.iphone' doesn't exist")
+[SQL: SELECT * FROM iphone]
+(Background on this error at: https://sqlalche.me/e/20/f405)

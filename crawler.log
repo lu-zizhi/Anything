@@ -1,0 +1,105 @@
+2025-03-31 16:01:44,781 - INFO - 爬取 URL: https://www.amazon.com/s?k=laptop&page=1
+2025-03-31 16:01:49,982 - INFO - 爬取 URL: https://www.amazon.com/s?k=laptop&page=2
+2025-03-31 16:01:54,439 - ERROR - 爬取失败: HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?k=laptop&page=2 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))
+2025-03-31 16:01:54,440 - INFO - 爬取 URL: https://www.amazon.com/s?k=laptop&page=3
+2025-03-31 16:01:59,428 - INFO - 爬取 URL: https://www.amazon.com/s?k=laptop&page=4
+2025-03-31 16:02:05,194 - INFO - 爬取 URL: https://www.amazon.com/s?k=laptop&page=5
+2025-03-31 16:09:26,670 - ERROR - 请求失败: 503 Server Error: Service Unavailable for url: https://www.amazon.com/s?k=laptop&page=1
+2025-03-31 16:09:44,812 - ERROR - 请求失败: 503 Server Error: Service Unavailable for url: https://www.amazon.com/s?k=laptop&page=5
+2025-03-31 16:23:03,925 - ERROR - 错误在页面 https://www.amazon.com/s?k=beer&page=2: HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?k=beer&page=2 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))
+2025-03-31 16:23:20,946 - ERROR - 数据插入失败: Not an executable object: "SELECT COUNT(*) FROM beer WHERE Title = 'Stanley Stay-Chill Beer Stein 24 oz | Heavy Duty Big Grip Handle | Beer Tumbler Drink Cup, Holds 2 Cans | Insulated Stainless Steel Party Mug | BPA-Free'"
+2025-03-31 21:09:47,686 - WARNING - 页面 https://www.amazon.com/s?k=book&page=1 没有找到任何商品
+2025-03-31 21:09:53,428 - WARNING - 页面 https://www.amazon.com/s?k=book&page=2 没有找到任何商品
+2025-03-31 21:09:57,708 - WARNING - 页面 https://www.amazon.com/s?k=book&page=3 没有找到任何商品
+2025-03-31 21:10:03,129 - WARNING - 页面 https://www.amazon.com/s?k=book&page=4 没有找到任何商品
+2025-03-31 21:10:08,799 - WARNING - 页面 https://www.amazon.com/s?k=book&page=5 没有找到任何商品
+2025-04-01 10:29:47,600 - ERROR - 数据插入失败: Not an executable object: "SELECT COUNT(*) FROM beer WHERE Title = 'Stanley Stay-Chill Beer Stein 24 oz | Heavy Duty Big Grip Handle | Beer Tumbler Drink Cup, Holds 2 Cans | Insulated Stainless Steel Party Mug | BPA-Free'"
+2025-04-01 10:47:01,639 - WARNING - 页面 https://www.amazon.com/s?k=book&page=1 没有找到任何商品
+2025-04-01 10:47:06,949 - WARNING - 页面 https://www.amazon.com/s?k=book&page=2 没有找到任何商品
+2025-04-01 10:47:13,291 - WARNING - 页面 https://www.amazon.com/s?k=book&page=3 没有找到任何商品
+2025-04-01 10:47:17,640 - WARNING - 页面 https://www.amazon.com/s?k=book&page=4 没有找到任何商品
+2025-04-01 10:47:23,081 - WARNING - 页面 https://www.amazon.com/s?k=book&page=5 没有找到任何商品
+2025-04-01 10:47:58,283 - WARNING - 页面 https://www.amazon.com/s?k=book&page=1 没有找到任何商品
+2025-04-01 10:48:03,663 - WARNING - 页面 https://www.amazon.com/s?k=book&page=2 没有找到任何商品
+2025-04-01 10:48:08,028 - WARNING - 页面 https://www.amazon.com/s?k=book&page=3 没有找到任何商品
+2025-04-01 10:48:13,414 - WARNING - 页面 https://www.amazon.com/s?k=book&page=4 没有找到任何商品
+2025-04-01 10:48:18,813 - WARNING - 页面 https://www.amazon.com/s?k=book&page=5 没有找到任何商品
+2025-04-01 10:56:04,812 - WARNING - 页面 https://www.amazon.com/s?k=book&page=1 没有找到任何商品
+2025-04-01 10:56:10,305 - WARNING - 页面 https://www.amazon.com/s?k=book&page=2 没有找到任何商品
+2025-04-01 10:56:16,727 - WARNING - 页面 https://www.amazon.com/s?k=book&page=3 没有找到任何商品
+2025-04-01 10:56:22,036 - WARNING - 页面 https://www.amazon.com/s?k=book&page=4 没有找到任何商品
+2025-04-01 10:56:29,252 - WARNING - 页面 https://www.amazon.com/s?k=book&page=5 没有找到任何商品
+2025-04-01 14:15:44,012 - ERROR - 数据插入失败: Not an executable object: "SELECT COUNT(*) FROM beer WHERE Title = 'Stanley Stay-Chill Beer Stein 24 oz | Heavy Duty Big Grip Handle | Beer Tumbler Drink Cup, Holds 2 Cans | Insulated Stainless Steel Party Mug | BPA-Free'"
+2025-04-01 14:25:04,895 - ERROR - 数据插入失败: Not an executable object: "SELECT COUNT(*) FROM beer WHERE Title = 'Stanley Stay-Chill Beer Stein 24 oz | Heavy Duty Big Grip Handle | Beer Tumbler Drink Cup, Holds 2 Cans | Insulated Stainless Steel Party Mug | BPA-Free'"
+2025-04-01 14:32:36,068 - ERROR - 数据插入失败: Not an executable object: "SELECT COUNT(*) FROM beer WHERE Title = 'Stanley Stay-Chill Beer Stein 24 oz | Heavy Duty Big Grip Handle | Beer Tumbler Drink Cup, Holds 2 Cans | Insulated Stainless Steel Party Mug | BPA-Free'"
+2025-04-01 14:37:08,795 - WARNING - 页面 https://www.amazon.com/s?k=book&page=1 没有找到任何商品
+2025-04-01 14:37:14,567 - WARNING - 页面 https://www.amazon.com/s?k=book&page=2 没有找到任何商品
+2025-04-01 14:37:21,108 - WARNING - 页面 https://www.amazon.com/s?k=book&page=3 没有找到任何商品
+2025-04-01 14:37:26,442 - WARNING - 页面 https://www.amazon.com/s?k=book&page=4 没有找到任何商品
+2025-04-01 14:37:31,123 - WARNING - 页面 https://www.amazon.com/s?k=book&page=5 没有找到任何商品
+2025-04-01 14:38:50,296 - WARNING - 页面 https://www.amazon.com/s?k=book&page=1 没有找到任何商品
+2025-04-01 14:38:54,610 - WARNING - 页面 https://www.amazon.com/s?k=book&page=2 没有找到任何商品
+2025-04-01 14:39:01,027 - WARNING - 页面 https://www.amazon.com/s?k=book&page=3 没有找到任何商品
+2025-04-01 14:39:06,943 - WARNING - 页面 https://www.amazon.com/s?k=book&page=4 没有找到任何商品
+2025-04-01 14:39:10,696 - WARNING - 页面 https://www.amazon.com/s?k=book&page=5 没有找到任何商品
+2025-04-01 14:41:36,321 - WARNING - 页面 https://www.amazon.com/s?k=book&page=1 没有找到任何商品
+2025-04-01 14:41:40,752 - WARNING - 页面 https://www.amazon.com/s?k=book&page=2 没有找到任何商品
+2025-04-01 14:41:45,119 - WARNING - 页面 https://www.amazon.com/s?k=book&page=3 没有找到任何商品
+2025-04-01 14:41:51,442 - WARNING - 页面 https://www.amazon.com/s?k=book&page=4 没有找到任何商品
+2025-04-01 14:41:57,783 - WARNING - 页面 https://www.amazon.com/s?k=book&page=5 没有找到任何商品
+2025-04-01 14:47:16,427 - WARNING - 页面 https://www.amazon.com/s?k=book&page=1 没有找到任何商品
+2025-04-01 14:47:17,830 - WARNING - 页面 https://www.amazon.com/s?k=book&page=2 没有找到任何商品
+2025-04-01 14:47:20,462 - WARNING - 页面 https://www.amazon.com/s?k=book&page=3 没有找到任何商品
+2025-04-01 14:47:23,234 - WARNING - 页面 https://www.amazon.com/s?k=book&page=4 没有找到任何商品
+2025-04-01 14:47:26,045 - WARNING - 页面 https://www.amazon.com/s?k=book&page=5 没有找到任何商品
+2025-04-01 14:59:32,241 - ERROR - 请求异常: Failed to parse: http://proxy1:port, URL: https://www.amazon.com/s?k=wine&page=1
+2025-04-01 14:59:34,315 - ERROR - 请求异常: Failed to parse: http://proxy2:port, URL: https://www.amazon.com/s?k=wine&page=1
+2025-04-01 14:59:37,386 - ERROR - 请求异常: Failed to parse: http://proxy1:port, URL: https://www.amazon.com/s?k=wine&page=1
+2025-04-01 14:59:37,386 - ERROR - 请求失败，已达到最大重试次数，跳过页面: https://www.amazon.com/s?k=wine&page=1
+2025-04-01 14:59:37,387 - ERROR - 请求异常: Failed to parse: http://proxy2:port, URL: https://www.amazon.com/s?k=wine&page=2
+2025-04-01 14:59:42,334 - ERROR - 请求异常: Failed to parse: http://proxy1:port, URL: https://www.amazon.com/s?k=wine&page=2
+2025-04-01 14:59:46,212 - ERROR - 请求异常: Failed to parse: http://proxy2:port, URL: https://www.amazon.com/s?k=wine&page=2
+2025-04-01 14:59:46,212 - ERROR - 请求失败，已达到最大重试次数，跳过页面: https://www.amazon.com/s?k=wine&page=2
+2025-04-01 14:59:46,213 - ERROR - 请求异常: Failed to parse: http://proxy1:port, URL: https://www.amazon.com/s?k=wine&page=3
+2025-04-01 14:59:49,188 - ERROR - 请求异常: Failed to parse: http://proxy2:port, URL: https://www.amazon.com/s?k=wine&page=3
+2025-04-01 14:59:52,217 - ERROR - 请求异常: Failed to parse: http://proxy1:port, URL: https://www.amazon.com/s?k=wine&page=3
+2025-04-01 14:59:52,217 - ERROR - 请求失败，已达到最大重试次数，跳过页面: https://www.amazon.com/s?k=wine&page=3
+2025-04-01 14:59:52,218 - ERROR - 请求异常: Failed to parse: http://proxy2:port, URL: https://www.amazon.com/s?k=wine&page=4
+2025-04-01 14:59:56,543 - ERROR - 请求异常: Failed to parse: http://proxy1:port, URL: https://www.amazon.com/s?k=wine&page=4
+2025-04-01 14:59:59,801 - ERROR - 请求异常: Failed to parse: http://proxy2:port, URL: https://www.amazon.com/s?k=wine&page=4
+2025-04-01 14:59:59,801 - ERROR - 请求失败，已达到最大重试次数，跳过页面: https://www.amazon.com/s?k=wine&page=4
+2025-04-01 14:59:59,802 - ERROR - 请求异常: Failed to parse: http://proxy1:port, URL: https://www.amazon.com/s?k=wine&page=5
+2025-04-01 15:00:03,375 - ERROR - 请求异常: Failed to parse: http://proxy2:port, URL: https://www.amazon.com/s?k=wine&page=5
+2025-04-01 15:00:05,828 - ERROR - 请求异常: Failed to parse: http://proxy1:port, URL: https://www.amazon.com/s?k=wine&page=5
+2025-04-01 15:00:05,828 - ERROR - 请求失败，已达到最大重试次数，跳过页面: https://www.amazon.com/s?k=wine&page=5
+2025-04-01 20:35:34,787 - ERROR - 请求异常: Failed to parse: http://proxy1:port, URL: https://www.amazon.com/s?k=huawei&page=1
+2025-04-01 20:35:38,823 - ERROR - 请求异常: Failed to parse: http://proxy2:port, URL: https://www.amazon.com/s?k=huawei&page=1
+2025-04-01 20:35:41,397 - ERROR - 请求异常: Failed to parse: http://proxy1:port, URL: https://www.amazon.com/s?k=huawei&page=1
+2025-04-01 20:35:41,397 - ERROR - 请求失败，已达到最大重试次数，跳过页面: https://www.amazon.com/s?k=huawei&page=1
+2025-04-01 20:35:41,398 - ERROR - 请求异常: Failed to parse: http://proxy2:port, URL: https://www.amazon.com/s?k=huawei&page=2
+2025-04-01 20:35:46,327 - ERROR - 请求异常: Failed to parse: http://proxy1:port, URL: https://www.amazon.com/s?k=huawei&page=2
+2025-04-01 20:35:48,808 - ERROR - 请求异常: Failed to parse: http://proxy2:port, URL: https://www.amazon.com/s?k=huawei&page=2
+2025-04-01 20:35:48,808 - ERROR - 请求失败，已达到最大重试次数，跳过页面: https://www.amazon.com/s?k=huawei&page=2
+2025-04-01 20:35:48,809 - ERROR - 请求异常: Failed to parse: http://proxy1:port, URL: https://www.amazon.com/s?k=huawei&page=3
+2025-04-01 20:35:52,521 - ERROR - 请求异常: Failed to parse: http://proxy2:port, URL: https://www.amazon.com/s?k=huawei&page=3
+2025-04-01 20:35:55,552 - ERROR - 请求异常: Failed to parse: http://proxy1:port, URL: https://www.amazon.com/s?k=huawei&page=3
+2025-04-01 20:35:55,552 - ERROR - 请求失败，已达到最大重试次数，跳过页面: https://www.amazon.com/s?k=huawei&page=3
+2025-04-01 20:35:55,552 - ERROR - 请求异常: Failed to parse: http://proxy2:port, URL: https://www.amazon.com/s?k=huawei&page=4
+2025-04-01 20:35:59,378 - ERROR - 请求异常: Failed to parse: http://proxy1:port, URL: https://www.amazon.com/s?k=huawei&page=4
+2025-04-01 20:36:03,126 - ERROR - 请求异常: Failed to parse: http://proxy2:port, URL: https://www.amazon.com/s?k=huawei&page=4
+2025-04-01 20:36:03,127 - ERROR - 请求失败，已达到最大重试次数，跳过页面: https://www.amazon.com/s?k=huawei&page=4
+2025-04-01 20:36:03,128 - ERROR - 请求异常: Failed to parse: http://proxy1:port, URL: https://www.amazon.com/s?k=huawei&page=5
+2025-04-01 20:36:07,021 - ERROR - 请求异常: Failed to parse: http://proxy2:port, URL: https://www.amazon.com/s?k=huawei&page=5
+2025-04-01 20:36:10,133 - ERROR - 请求异常: Failed to parse: http://proxy1:port, URL: https://www.amazon.com/s?k=huawei&page=5
+2025-04-01 20:36:10,133 - ERROR - 请求失败，已达到最大重试次数，跳过页面: https://www.amazon.com/s?k=huawei&page=5
+2025-04-01 20:57:50,536 - ERROR - 数据插入失败: Not an executable object: "SELECT COUNT(*) FROM huawei WHERE Title = 'HUAWEI'"
+2025-04-01 21:23:43,237 - ERROR - 数据插入失败: Not an executable object: "SELECT COUNT(*) FROM huawei WHERE Title = 'HUAWEI'"
+2025-04-01 21:59:40,917 - WARNING - 页面 https://www.amazon.com/s?k=iPhone&page=5 没有找到任何商品
+2025-04-01 22:11:17,352 - ERROR - 请求失败，状态码: 503, URL: https://www.amazon.com/s?k=apple&page=4
+2025-04-01 22:17:45,881 - WARNING - 页面 https://www.amazon.com/s?k=IPhone&page=4 没有找到任何商品
+2025-04-01 22:17:54,318 - WARNING - 页面 https://www.amazon.com/s?k=IPhone&page=5 没有找到任何商品
+2025-04-01 22:17:58,331 - ERROR - 数据插入失败: Not an executable object: "SELECT COUNT(*) FROM iphone WHERE Title = 'Apple iPhone 12 Pro Max 5G, US Version, 128GB, Graphite - Unlocked (Renewed)'"
+2025-04-02 09:42:33,009 - ERROR - 数据插入失败: Not an executable object: "SELECT COUNT(*) FROM beer WHERE Title = 'Stanley Stay-Chill Beer Stein 24 oz | Heavy Duty Big Grip Handle | Beer Tumbler Drink Cup, Holds 2 Cans | Insulated Stainless Steel Party Mug | BPA-Free'"
+2025-04-02 10:25:22,340 - ERROR - 数据插入失败: Not an executable object: "SELECT COUNT(*) FROM beer WHERE Title = 'Stanley Stay-Chill Beer Stein 24 oz | Heavy Duty Big Grip Handle | Beer Tumbler Drink Cup, Holds 2 Cans | Insulated Stainless Steel Party Mug | BPA-Free'"
+2025-04-08 09:28:46,676 - ERROR - 请求失败，状态码: 503, URL: https://www.amazon.com/s?k=coffee&page=4
+2025-04-08 09:29:07,725 - ERROR - 错误在页面 https://www.amazon.com/s?k=coffee&page=5: HTTPSConnectionPool(host='www.amazon.com', port=443): Max retries exceeded with url: /s?k=coffee&page=5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000013DB17DDDF0>, 'Connection to www.amazon.com timed out. (connect timeout=None)'))
